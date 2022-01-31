@@ -1,0 +1,23 @@
+//importamos los colores
+@import "../../../assets/styles/variables.scss";
+
+.card{
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: $red;
+
+}
+.header-image{
+    background-size: cover;
+}
+.mat-card-header{
+ background-color: $white;
+ padding-top: 10px;
+ border-radius: 10px;
+}
+.mat-chip{
+    background-color: $black;
+    color: $white;
+
+}

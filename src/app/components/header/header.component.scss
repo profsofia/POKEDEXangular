@@ -5,7 +5,11 @@
 
 .mat-toolbar{
     background-color: $black ;
+    align-content: right ;
+    margin: 2px auto;
+    padding: 2px;
 }
 img{
     cursor: pointer;
+    justify-content: center;
 }
