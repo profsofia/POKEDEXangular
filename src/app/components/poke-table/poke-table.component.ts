@@ -51,4 +51,7 @@ export class PokeTableComponent implements OnInit {
       this.datasource.paginator.firstPage();
     }
   }
+  getRow(row: any){
+    console.log(row);
+  }
 }
