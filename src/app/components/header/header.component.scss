@@ -1,0 +1,11 @@
+//importamos los colores
+@import "../../../assets/styles/variables.scss";
+
+//lo aplicamos al componente
+
+.mat-toolbar{
+    background-color: $black ;
+}
+img{
+    cursor: pointer;
+}
