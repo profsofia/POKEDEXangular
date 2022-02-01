@@ -6,14 +6,21 @@
     </mat-card-header>
     <img mat-card-image src="{{pokemonImg}}" alt="poke-foto-detail">
     <mat-card-content>
+      
       <!--proximamente pondremos mas skils-->
       <mat-chip-list aria-label="Fish selection">
-        <mat-chip color="primary" selected>Type: {{pokemonType}}</mat-chip>
-        <mat-chip color="accent" selected>Height: {{pokemon.height}}</mat-chip>
-        <mat-chip color="accent" selected>Weight: {{pokemon.weight}}</mat-chip>
+
+        <mat-chip selected>Skills: {{pokeAbility[0]}}, {{pokeAbility[1]}}</mat-chip>
+        <mat-chip selected>Expirence: {{pokemon.base_experience}}</mat-chip>
+        <mat-chip selected>Type: {{pokemonType}}</mat-chip>
+        <mat-chip selected>Height: {{pokemon.height}}</mat-chip>
+        <mat-chip selected>Weight: {{pokemon.weight}}</mat-chip>
+        <mat-chip selected>Moves: {{moves}}</mat-chip>
       </mat-chip-list>
       
     </mat-card-content>
   </mat-card>
+  <br/>
+  <app-footer></app-footer>
 
   

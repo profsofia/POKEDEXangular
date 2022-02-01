@@ -11,6 +11,10 @@ export class PokeDetailComponent implements OnInit {
   pokemon : any = '';
   pokemonType = [];
   pokemonImg = '';
+  pokeAbility : any = [];
+  moves ='';
+  
+
   //luego crearemos mas cosas para rellenar la tarjeta
 
 
@@ -30,10 +34,15 @@ export class PokeDetailComponent implements OnInit {
       res => {
         /*console.log(res);*/
         this.pokemon = res;
-        this.pokemonImg = this.pokemon.sprites.front_default;
-        this.pokemonType = res.types[0].type.name
+        this.pokemonImg = this.pokemon.sprites.other.dream_world.front_default;
+        this.pokemonType = res.types[0].type.name;
+        this.pokeAbility[0] = this.pokemon.abilities[0].ability.name;
+        this.pokeAbility[1] = this.pokemon.abilities[1].ability.name;
+        this.moves = this.pokemon.moves[0].move.name;
+        
       },
       err => {console.log(err);}
+
 
     )
   }

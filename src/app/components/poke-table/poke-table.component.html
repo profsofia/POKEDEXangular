@@ -1,8 +1,8 @@
 <div class="container">
   <mat-form-field appearance="standard">
-    <mat-label>Buscar</mat-label>
+    <mat-label>Look for your pokemon here...</mat-label>
     
-    <input matInput (keyup)="applyFilter($event)" placeholder="Busca el pokemon" #input>
+    <input matInput (keyup)="applyFilter($event)" #input class="look-poke">
     
   </mat-form-field>
   
@@ -17,7 +17,7 @@
   
       <!-- Progress Column -->
       <ng-container matColumnDef="image">
-        <th mat-header-cell *matHeaderCellDef mat-sort-header> imagen </th>
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Image </th>
         <td mat-cell *matCellDef="let row"><img src="{{row.image}}" alt="imagen-poke" width="100" heigth="100" ></td>
       </ng-container>
   

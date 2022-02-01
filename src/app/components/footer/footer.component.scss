@@ -7,6 +7,23 @@ footer{
     justify-content: center;
     align-items: center;
     height: 80px;
-    color: white;
-    background-color: black;
+    color:$white !important;
+    background-color:$black;
+    
+    & img {
+        max-width: 20px;
+        max-height:20px;
+        padding:10px;
+        margin: auto;
+    }
+    & p{
+        margin: auto;
+        color: $white;
+        text-transform: uppercase;
+        text-decoration: solid;
+    }
+    & h3{
+        margin: auto;
+        color:$white !important;
+    }
 }
