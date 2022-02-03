@@ -9,3 +9,6 @@ Este proyecto fue generado con angular CLI [Angular CLI](https://github.com/angu
 
 ## En este proyecto consumimos una api desde angular, para los estilos usamos angular material.
 
+
+[Live Demo](https://pokedexangular-sofia.web.app/)
+
