@@ -1,0 +1,38 @@
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0;
+          flex: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+  color: #fcfcfc !important;
+  background-color: #424242;
+}
+
+footer img {
+  max-width: 20px;
+  max-height: 20px;
+  padding: 10px;
+  margin: auto;
+}
+
+footer p {
+  margin: auto;
+  color: #fcfcfc;
+  text-transform: uppercase;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+}
+
+footer h3 {
+  margin: auto;
+  color: #fcfcfc !important;
+}
+/*# sourceMappingURL=footer.component.css.map */
